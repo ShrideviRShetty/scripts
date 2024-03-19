@@ -1,0 +1,4 @@
+for i in ./sample/*
+do
+        zip sample.zip $i
+done
