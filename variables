@@ -1,0 +1,9 @@
+#!/bin/bash
+owner="ram"
+echo "enter car name"
+read name
+echo "enter car price"
+read price
+echo "car name is $name"
+echo "car price is $price"
+echo "car belongs to $owner"
