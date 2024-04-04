@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter a"
+read a
+echo "enter b"
+read b
+sum(){
+sum=$(($1+$2))
+echo "the sum is $sum"
+}
+sum $a $b
