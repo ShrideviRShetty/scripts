@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f ./sample.txt ]
+then 
+  echo "file exists"
+else
+  echo "file dont exists"
