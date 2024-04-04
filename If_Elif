@@ -1,0 +1,11 @@
+#!/bin/bash
+a=5
+b=5
+if[ $a -gt $b ]
+then
+  echo "$a is greater than $b"
+elif[ $b -gt $a ]
+  echo "$b is greater than $a"
+else
+  echo "both are equal"
+fi
